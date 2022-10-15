@@ -51,19 +51,6 @@ nav ul li a {
   display: none;
 }
 
-.checkbtn1: {
-  font-size: 20px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-#check1 {
-  display: none;
-}
-
 .imgcontainer {
   float: right;
   margin-right: 10px;
