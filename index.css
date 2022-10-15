@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background: #6b6b6b;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.checkbtn {
+  font-size: 20px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+.checkbtn1: {
+  font-size: 20px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#check1 {
+  display: none;
+}
+
+.imgcontainer {
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
