@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <script src="scripts.js" defer></script>
   </head>
 
   <body>
@@ -26,32 +27,31 @@
 
       <label class="logo" href="#">CrunchTime</label>
     </nav>
-    
-    <script src = "scripts.js" defer></script>
+    <main>
+      <div class="task-form">
+        <label for="tName">Task Name:</label>
+        <input type="text" id="tName" name="task" /><br /><br />
 
-    
-    <label for="tName">Task Name:</label>
-    <input type="text" id="tName" name="task"><br><br>
+        <label for="tDesc">Description:</label>
+        <input type="text" id="tDesc" name="task" /><br /><br />
 
-    <label for="tDesc">Description:</label>
-    <input type="text" id="tDesc" name="task"><br><br>
+        <label for="tDL">Deadline:</label>
+        <input type="datetime" id="tDL" name="task" /><br /><br />
 
-    <label for="tDL">Deadline:</label>
-    <input type="datetime" id="tDL" name="task"><br><br>
+        <label for="tTimeBlock">Time block:</label>
+        <input type="text" id="tTimeBlock" name="task" /><br /><br />
 
-    <label for="tTimeBlock">Time block:</label>
-    <input type="text" id="tTimeBlock" name="task"><br><br>
+        <label for="tApps">Allowed apps:</label>
 
-    <label for="tApps">Allowed apps:</label>
+        <textarea class="url-lists"id="tApps" name="task" rows="3" cols="30"> </textarea
+        ><br /><br />
 
-    <textarea id="tApps" name="task" rows="4" cols="50">
-    </textarea><br><br>
-
-    <input type="submit" onclick = "addTask()" value="Submit">
-
-    <button onclick="launch()">Launch</button>
-    
+        <input type="submit" onclick="addTask()" value="Submit" />
+      </div>
+      <div id="tasks-list">
+        
+      </div>
+    </main>
     <div id="foo"></div>
-
   </body>
 </html>
